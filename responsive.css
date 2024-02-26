@@ -1,0 +1,217 @@
+/*Starting header section  */
+@media(max-width: 905px) {
+header nav {
+    /* display: none; */
+    /* position: relative; */
+}
+
+ 
+
+
+header {
+    padding: 20px 1rem;
+ }
+
+.menu-icons {
+    display: block;
+ }
+
+ header ul {
+    flex-direction: column;
+    position: absolute;
+    top: 88px;
+     left: 0%;
+    gap: 5vh;
+    background-color: #fff;
+ width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 99999;
+    visibility: hidden;
+    transform: translateX(100%);
+    transition: all .3s ;
+ }
+
+ header ul li a{
+    color: black;
+ }
+
+ .visibleSideBar{
+    visibility: visible;
+    transform: translateX(0%);
+ }
+
+}
+
+/* Ending header section  */
+
+
+
+
+
+/* Starting home section  */
+@media(max-width: 963px) {
+    #Home .dev-container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .dev-image {
+        margin: auto;
+    }
+    
+    .dev-text {
+        margin: 2vh 3vh;
+    }
+
+    .dev-image img {
+        width: 270px;
+        height: 270px;
+    }
+
+    
+}
+
+@media(max-width: 576px) {
+    #Home .dev-text h1{
+        font-size: 7vh;
+        line-height: 1.2;
+        color: #fff;
+        width: 60vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+
+     .dev-text h1 .auto-type{
+        -webkit-text-stroke: .4vh;
+        letter-spacing: 2px;
+        -webkit-text-stroke-color: blue;
+        font-size: 6vh;
+        }
+ 
+}
+
+@media(max-width: 575px) {
+    .dev-btn a {
+      font-size: 16px;
+        padding: 10px 28px;
+
+      }
+
+      .dev-btn .btn-2 {
+        margin-left: 3vh;
+     }
+}
+
+
+/* Ending home section  */
+
+
+
+
+
+/* starting about sectin  */
+@media(max-width: 840px) {
+    #About {
+        margin-top: 20vh;
+        display: flex;
+        gap: 2vh;
+        padding: 0 0vh;
+        flex-direction: column;
+    }
+
+    .about-content {
+        margin: auto;
+    }
+    .about-image {
+        margin: auto;
+    }
+}
+
+@media(max-width: 467px) {
+    .about-image img {
+        width: 230px;
+        height: 230px;
+    }
+
+    .about-content {
+        /* margin: auto;
+        text-align: center; */
+    }
+
+    .about-content .about-para {
+        width: 300px;
+    }
+
+    .about-content .about {
+        font-size: 46px;
+        color: #00ffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .about-content .dev-work {
+            font-size: 25px;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+}
+
+ 
+
+/* Ending about sectin  */
+
+
+
+
+
+
+
+/* Starting project section  */
+@media(max-width: 1086px) {
+    .project-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5vh;
+        justify-content: center;
+        gap: 5vh;
+        }
+}
+
+
+/* Ending project section  */
+
+
+
+
+
+
+/* Starting contact section  */
+@media(max-width: 730px){
+    #contact form {
+        margin-top: 4vh;
+        margin-left: 10vh;
+     }
+
+     form input, textarea {
+        width: 90%;
+     }
+}
+
+@media(max-width: 391px){
+    #contact form {
+         margin-left: 1vh;
+     }
+
+     form input, textarea {
+        width: 96%;
+     }
+}
+
+/* Ending contact section  */
+
+
+
+
+ 

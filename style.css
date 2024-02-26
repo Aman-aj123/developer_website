@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body {
+    background:  #051010;
+ }
+
+.text-deco {
+    text-decoration: none;
+}
+
+
+/* Starting header section  */
+
+header h2 {
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+header h2 span {
+    font-size: 55px;
+    color: #00ffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 2rem;
+}
+
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul a {
+    font-size: 20px;
+    padding: 12px;
+    color: #fff;
+    transition: 0.3s;
+    letter-spacing: 2px;
+     text-decoration: none;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header nav ul a:hover {
+    text-shadow: 0 0 20px #00ffff, 0 0 15px rgb(85, 85, 211);
+}
+
+
+
+
+.menu-icons {
+   display: none;
+}
+
+.menu-icons i {
+    font-size: 34px;
+    color: aqua;
+    cursor: pointer;
+}
+
+/* Ending header section  */
+
+
+
+/* Starting Home section  */
+#Home{
+    margin-top: 5vh;
+}
+
+#Home .dev-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+#Home .dev-text h1{
+    font-size: 13vh;
+    line-height: 1.2;
+    color: #fff;
+    width: 130vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .dev-name {
+    color: #00ffff;
+ }
+
+ .dev-text h1 .auto-type{
+    -webkit-text-stroke: .8vh;
+    letter-spacing: 2px;
+    -webkit-text-stroke-color: blue;
+    font-size: 15vh;
+    }
+
+    .dev-image img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0 0 20px aqua;
+    }
+
+  
+    .dev-btn{
+        margin-left: 4vh;
+  margin-top: 2vh;
+    }
+
+ .dev-btn a {
+    text-decoration: none;
+    color: #00ffff;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: .90px;
+    border: 1px solid aqua;
+    padding: 10px 33px;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+    z-index: 999;
+    transition: all .4s linear;
+  }
+
+ .dev-btn .btn-2 {
+    margin-left: 7vh;
+ }
+
+ 
+  
+ .dev-btn a:nth-child(1) span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: aqua;
+    z-index: -1;
+    transition: all .4s linear;
+ }
+ 
+ .dev-btn a:nth-child(1):hover span{
+ height: 100%;
+ }
+
+
+
+
+ .dev-btn a:nth-child(2) span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: aqua;
+    z-index: -1;
+    transition: all .4s linear;
+ }
+ 
+ .dev-btn a:nth-child(2):hover span{
+ height: 100%;
+ }
+
+
+ .dev-btn a:hover {
+    color: black;
+    box-shadow: 0 0 20px aqua;
+ }
+  
+/* Ending Home section  */
+
+
+
+
+
+
+
+/* Starting About section  */
+#About {
+    margin-top: 20vh;
+    display: flex;
+    gap: 10vh;
+    padding: 0 10vh;
+}
+
+ 
+ 
+
+.about-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 20px aqua;
+}
+
+.about-content .about {
+font-size: 55px;
+color: #00ffff;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-content .dev-work {
+    font-size: 37px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-content .about-para {
+    color: rgb(101, 102, 102);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    width: 400px;
+}
+/* Ending About section  */
+
+
+
+
+/* Starting project section  */
+#project {
+    margin-top: 18vh;
+}
+#project h1 {
+    padding-left: 7vh;
+    color: aqua;
+    font-weight: 600;
+    font-size: 55px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#project h2{
+     font-weight: 600;
+     text-align: center;
+    font-size: 33px;
+    color: rgb(82, 83, 83);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.project-container{
+display: flex;
+margin-top: 5vh;
+justify-content: center;
+gap: 7vh;
+}
+
+.project-items{
+    border: 1px solid gainsboro;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.project-items img{
+width: 300px;
+height: 300px;
+object-fit: cover;
+}
+
+.project-items p{
+    width: 300px;
+    color: #727171;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Ending project section  */
+
+
+
+
+
+/* Starting contact section  */
+#contact {
+    margin-top: 13vh;
+}
+
+#contact h1 {
+    padding-left: 7vh;
+    color: aqua;
+    font-weight: 600;
+    font-size: 55px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#contact form {
+    margin-top: 4vh;
+    margin-left: 30vh;
+ }
+
+ 
+
+form label {
+    font-size: 23px;
+    letter-spacing: 0.90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(92, 91, 91);
+}
+
+form input, textarea {
+    width: 70%;
+    padding: 8px 10px;
+    border-radius: 4px;
+    border: none;
+    font-size: 18px;
+    margin-top: 1vh;
+ }
+
+
+form ::placeholder {
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.send-btn {
+    margin-top: 4vh;
+}
+
+.send-btn a {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 1px solid aqua;
+    padding: 10px 25px;
+    border-radius: 4px;
+    background-color: #00ffff;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+ width: 200px;
+ transition: .3s linear;
+}
+
+.send-btn a:hover {
+    background-color: #00ffffdc;
+}
+
+/* Ending contact section  */
+
+
+
+
+
+
+/* Starting Footer section  */
+footer {
+    padding: 23px 20px;
+    margin-top: 15vh;
+    background-color: #17bdbd6e;
+    color: rgb(15, 15, 15);
+ }
+
+footer h3 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+footer h3 span {
+    font-size: 19px;
+  }
+/* Ending Footer section  */
